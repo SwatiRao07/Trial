@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Flask App</title>
+</head>
+<body>
+    <h1>Hello, {{ name }}!</h1>
+    <h2>Your To-Do List:</h2>
+    <ul>
+        {% for task in todo %}
+            <li>{{ task }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
